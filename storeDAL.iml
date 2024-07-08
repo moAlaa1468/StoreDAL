@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="JAVA_MODULE" version="4">
+  <component name="FacetManager">
+    <facet type="hibernate" name="Hibernate">
+      <configuration>
+        <datasource-map>
+          <unit-entry name="lib:hibernate-search-5.8.0.Final:project:integrationtest:osgi:karaf-it:src:test:resources:hibernate.cfg.xml" value="799d5a9e-ffab-4f2d-aede-bb121301bbcb" />
+          <unit-entry name="lib:hibernate-search-5.8.0.Final:project:orm:src:test:resources:org:hibernate:search:test:spatial:hibernate.cfg.xml" value="6a76d7cc-4c47-4280-8b2e-35af2356e4ee" />
+        </datasource-map>
+        <naming-strategy-map />
+        <deploymentDescriptor name="hibernate.cfg.xml" url="file://$MODULE_DIR$/lib/hibernate-search-5.8.0.Final/project/integrationtest/osgi/karaf-it/src/test/resources/hibernate.cfg.xml" />
+        <deploymentDescriptor name="hibernate.cfg.xml" url="file://$MODULE_DIR$/lib/hibernate-search-5.8.0.Final/project/orm/src/test/resources/org/hibernate/search/test/spatial/hibernate.cfg.xml" />
+      </configuration>
+    </facet>
+  </component>
+  <component name="NewModuleRootManager" inherit-compiler-output="true">
+    <exclude-output />
+    <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$/src" isTestSource="false" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="library" exported="" name="mysql-connector-j-8.4" level="project" />
+    <orderEntry type="library" exported="" name="api" level="project" />
+    <orderEntry type="library" name="api1" level="project" />
+    <orderEntry type="library" name="hibernate-search-engine-5.8.0.Final" level="project" />
+    <orderEntry type="library" name="hibernate-release-4.3.4" level="project" />
+    <orderEntry type="library" name="hibernate.core" level="project" />
+  </component>
+</module>

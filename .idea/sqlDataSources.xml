@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DdlMappings">
+    <mapping uuid="1f059283-08bc-4271-ab2e-b65e947ea293" name="lib:hibernate-search-5.8.0.Final:project:orm:src:test:resources:org:hibernate:search:test:spatial:hibernate.cfg.xml/Hibernate Mapping">
+      <data-sources db="6a76d7cc-4c47-4280-8b2e-35af2356e4ee" ddl="5f5a8b15-674c-4ffc-9541-76ab029a74e5" />
+      <scope>
+        <node kind="database" negative="1">
+          <node kind="schema" negative="1" />
+        </node>
+      </scope>
+    </mapping>
+  </component>
+  <component name="SqlDataSourceStorage">
+    <option name="dataSources">
+      <list>
+        <State>
+          <option name="id" value="5f5a8b15-674c-4ffc-9541-76ab029a74e5" />
+          <option name="name" value="lib:hibernate-search-5.8.0.Final:project:orm:src:test:resources:org:hibernate:search:test:spatial:hibernate.cfg.xml/Hibernate (DDL)" />
+          <option name="dbmsName" value="H2" />
+          <option name="urls">
+            <array />
+          </option>
+          <option name="outLayout" value="File per object by schema.groovy" />
+        </State>
+      </list>
+    </option>
+  </component>
+</project>
